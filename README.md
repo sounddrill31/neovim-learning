@@ -8,7 +8,13 @@ Step 2: Set up this repo
 
 Copy init.vim here to the correct file path
 - Linux: `~/.config/nvim/init.vim`
+  - ```
+    curl https://raw.githubusercontent.com/sounddrill31/neovim-learning/refs/heads/main/init.vim -o .config/nvim/init.vim
+    ```
 - Windows: `.config\nvim\init.vim`
+  - ```
+    curl.exe https://raw.githubusercontent.com/sounddrill31/neovim-learning/refs/heads/main/init.vim -o .config/nvim/init.vim
+    ```
 
 Cheatsheet:
 
