@@ -4,18 +4,11 @@ My config for neovim
 Step 1: 
 Install Neovim - https://github.com/neovim/neovim/blob/master/INSTALL.md
 
-Step 2: Set up vim-plug
-Windows(Powershell):
-```powershell
-iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
-    ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
-```
+Step 2: Set up this repo
 
-Linux:
-```bash
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-```
+Copy init.vim here to the correct file path
+- Linux: `~/.config/nvim/init.vim`
+- Windows: `.config\nvim\init.vim`
 
 Cheatsheet:
 
