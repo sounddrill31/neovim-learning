@@ -13,5 +13,5 @@ Copy init.vim here to the correct file path
 Cheatsheet:
 
 - Copy Selection: (Select lines using Mouse or however) `"+y`
-- Copy Whole Doc: `Esc:%y+Enter`
-- Come to last line: `Esc:$Enter`
+- Copy Whole Doc: `:%y+`
+- Come to last line: `:$`
