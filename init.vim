@@ -6,7 +6,6 @@
 
 set showmatch " show matching text
 set ignorecase "so case sensitivity won't matter
-set mouse=v " middle click mouse
 
 set hlsearch " enable highlight search
 set incsearch " enable incremental search
@@ -23,7 +22,7 @@ syntax on " highlighting
 
 filetype plugin indent on " Auto indent, based on file
 set cc=80 " column border 80
-set mouse=a " Mouse click support
+set mouse=a " Mouse click, scroll support
 set clipboard=unnamedplus " Support systemclipboard
 
 filetype plugin on " support current file with plugins 
